@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenzia Viaggi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        /* Stile personnalizzato per la navbar */
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            border-bottom: 1px solid #333;
+        }
+
+        /* Stile personnalizzato per il logo */
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+
+        /* Stile personnalizzato per la sezione Jumbotron */
+        .jumbotron {
+            background-color: #f7f7f7;
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Stile personnalizzato per la sezione Offerta della settimana */
+        .offerta-settimana {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Stile personnalizzato per la sezione Welcome Summer */
+        .welcome-summer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Stile personnalizzato per la sezione Offerta del giorno */
+        .offerta-del-giorno {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        /* Stile personnalizzato per la sezione Last Minute */
+        .last-minute {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Stile personnalizzato per la sezione Testimonial */
+        .testimonial {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        /* Stile personnalizzato per il footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Agenzia Viaggi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Le nostre destinazioni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offerte del giorno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Last Minute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Benvenuto nella nostra agenzia di viaggi!</h1>
+        <p class="lead">Trova le migliori offerte per i tuoi prossimi viaggi</p>
+    </div>
+
+    <div class="offerta-settimana">
+        <h2 class="display-6">Offerta della settimana</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 1</h5>
+                        <p class="card-text">Descrizione della destinazione 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 2</h5>
+                        <p class="card-text">Descrizione della destinazione 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 3</h5>
+                        <p class="card-text">Descrizione della destinazione 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 4</h5>
+                        <p class="card-text">Descrizione della destinazione 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome-summer">
+        <h2 class="display-6">Welcome Summer</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 1</h5>
+                        <p class="card-text">Descrizione della destinazione 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 2</h5>
+                        <p class="card-text">Descrizione della destinazione 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 3</h5>
+                        <p class="card-text">Descrizione della destinazione 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 4</h5>
+                        <p class="card-text">Descrizione della destinazione 4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 5</h5>
+                        <p class="card-text">Descrizione della destinazione 5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 6</h5>
+                        <p class="card-text">Descrizione della destinazione 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offerta-del-giorno">
+        <h2 class="display-6">Offerta del giorno</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 1</h5>
+                        <p class="card-text">Descrizione della destinazione 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 2</h5>
+                        <p class="card-text">Descrizione della destinazione 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 3</h5>
+                        <p class="card-text">Descrizione della destinazione 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last-minute">
+        <h2 class="display-6">Last Minute</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 1</h5>
+                        <p class="card-text">Descrizione della destinazione 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://picsum.photos/200/300" alt="Immagine destinazione 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Destinazione 2</h5>
+                        <p class="card-text">Descrizione della destinazione 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <section class="welcome-summer">
+                        <h2>Welcome Summer</h2>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="immagine1.jpg" alt="immagine1">
+                                <div class="card-body">
+                                    <h3>Destinazione 1</h3>
+                                    <p>Breve descrizione della destinazione 1</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="immagine2.jpg" alt="immagine2">
+                                <div class="card-body">
+                                    <h3>Destinazione 2</h3>
+                                    <p>Breve descrizione della destinazione 2</p>
+                                </div>
+                            </div>
+                            <!-- aggiungi altre carte -->
+                        </div>
+                    </section>
+                    <section class="offerta-del-giorno">
+                        <h2>Offerta del giorno</h2>
+                        <div class="offerta-del-giorno-container">
+                            <img src="immagine3.jpg" alt="immagine3">
+                            <div class="offerta-del-giorno-body">
+                                <h3>Destinazione dell'offerta del giorno</h3>
+                                <p>Breve descrizione dell'offerta del giorno</p>
+                                <p>Prezzo: 500€</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="last-minute">
+                        <h2>Last Minute</h2>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="immagine4.jpg" alt="immagine4">
+                                <div class="card-body">
+                                    <h3>Destinazione 1</h3>
+                                    <p>Breve descrizione della destinazione 1</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="immagine5.jpg" alt="immagine5">
+                                <div class="card-body">
+                                    <h3>Destinazione 2</h3>
+                                    <p>Breve descrizione della destinazione 2</p>
+                                </div>
+                            </div>
+                            <!-- aggiungi altre carte -->
+                        </div>
+                    </section>
+                    <section class="testimonial">
+                        <h2>Testimonial</h2>
+                        <div class="testimonial-container">
+                            <p>“Sono stato molto soddisfatto del mio viaggio in Spagna. La destinazione era meravigliosa e l'agenzia ha cura di ogni dettaglio.” - Giovanni</p>
+                            <p>“Ho appena tornato dalla mia vacanza in Grecia e devo dire che è stato incredibile. L'agenzia ha organizzato tutto alla perfezione.” - Maria</p>
+                            <p>“Sono stato in dubbio tra diverse agenzie di viaggio, ma ho deciso di scegliere Agence Travel e non mi sono pentito. Il mio viaggio in Francia è stato fantastico.” - Luca</p>
+                        </div>
+                    </section>
+                </main>
+                <footer>
+                    <div class="footer-container">
+                        <p>&copy; 2023 Agence Travel</p>
+                        <p>Contattaci: <a href="mailto:info@agencetravel.com">info@agencetravel.com</a></p>
+                    </div>
+                </footer>
+                <script src="script.js"></script>
+            </body>
+            </html>

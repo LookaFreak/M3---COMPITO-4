@@ -1,0 +1,83 @@
+ /* Stile personnalizzato per la sezione Welcome Summer */ 
+ .welcome-summer { background-color: #f2f2f2; padding: 20px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; } 
+ .welcome-summer .card { margin: 10px; } 
+ .welcome-summer .card img { width: 100%; height: 15rem; object-fit: cover; } 
+ .welcome-summer .card h2 { font-size: 1.5rem; margin-top: 10px; }
+  .welcome-summer .card p { font-size: 1rem; margin-top: 10px; } 
+  .welcome-summer .card .price { font-size: 1.2rem; margin-top: 10px; color: #666; } 
+  .welcome-summer .card .price span { font-weight: bold; } 
+  /* Stile personnalizzato per la sezione Offerta del Giorno */ 
+ */
+    
+
+      
+          
+        .offer-day  .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+          }
+          
+        .offer-day  h2 {
+            margin-bottom: 10px;
+          }
+          
+        .offer-day  p {
+            margin-bottom: 20px;
+          }
+          
+       
+          
+         .offer-day img {
+            width: 660px;
+            margin-bottom: 20px;
+          }
+          
+        .offer-day  h3, h4 {
+            margin-bottom: 10px;
+            padding-left: 175px;
+          }
+
+          .offer-day h4{
+            font-size: small;
+          }
+          
+        .offer-day h3{
+            color: orangered;
+        }
+
+         .offer-day .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 20px;
+          }
+
+          #proviamo{
+            display: flex;
+    justify-content: space-between;
+    align-items: center;
+          }
+          
+  
+  /* Stile personnalizzato per la sezione Last Minute */ 
+  .last-minute { background-color: #f2f2f2; padding: 20px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; } 
+  .last-minute .card { margin: 10px; } 
+  .last-minute .card img { width: 100%; height: 15rem; object-fit: cover; } 
+  .last-minute .card h2 { font-size: 1.5rem; margin-top: 10px; } 
+  .last-minute .card p { font-size: 1rem; margin-top: 10px; } 
+  .last-minute .card .price { font-size: 1.2rem; margin-top: 10px; color: #666; } 
+  .last-minute .card .price span { font-weight: bold; } 
+ 
+  .welcome-summer .card {
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .offer-day {
+      display: none;
+    }
+  }
+  
